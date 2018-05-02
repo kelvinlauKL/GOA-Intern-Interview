@@ -14,7 +14,25 @@ Fork this repository to begin.
 
 Your first challenge is to solve an algorithm question. Choose **one** of the following questions to answer. We'll only look at one answer, so don't do more than one. 
 
-### Create a function that returns the first duplicate in an array
+### Question A: Return first duplicate
+
+Create a function that accepts an array of integers and returns the first duplicate value. Here's an example:
+
+```swift
+let testArray = [2, 4, 5, 1, 3, 5, 4]
+
+if let duplicate = firstDuplicatedElement(in: testArray) {
+  print(duplicate) // prints 4
+}
+```
+
+Here's a function signature to start you off:
+
+```swift
+func firstDuplicatedElement(in array: [Int]) -> Int? {
+  // your code here
+}
+```
 
 
 
