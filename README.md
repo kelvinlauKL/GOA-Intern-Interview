@@ -10,11 +10,11 @@ The goal is to submit a pull request that accomplishes the following tasks. Whil
 
 Fork this repository to begin.
 
-## Challenge 1: 
+## Challenge 1: Algorithms 
 
-Your first challenge is to solve an algorithm question. Choose **one** of the following questions to answer. We'll only look at one answer, so don't do more than one. 
+Your first challenge is to solve two algorithm questions. You'll be judged based on correctness, performance, and code readability. 
 
-### Question A: Return first duplicate
+### Question 1: Return first duplicate
 
 Create a function that accepts an array of integers and returns the first duplicate value. Here's an example:
 
@@ -33,6 +33,32 @@ func firstDuplicatedElement(in array: [Int]) -> Int? {
   // your code here
 }
 ```
+
+### Question 2: Is Palindrome?
+
+Create a function that checks if a string is a palindrome. A palindrome is a word that reads the same way even if you read it backwards. 
+
+Example palindromes:
+
+- radar
+- bob
+- asdfdsa
+
+Here's a function signature to start you off:
+
+```swift
+func isPalindrome(_ word: String) -> Bool {
+  // your code here
+}
+```
+
+## Challenge 2: iOS
+
+Your second challenge is to develop a small app from scratch. Here are the requirements:
+
+- It should show a list of images. 
+
+
 
 
 
