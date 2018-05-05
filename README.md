@@ -56,7 +56,17 @@ func isPalindrome(_ word: String) -> Bool {
 
 Your second challenge is to develop a small app from scratch. Here are the requirements:
 
-- It should show a list of images. 
+- It should show a list of images.
+- Tapping on an image should navigate to a new screen that shows the selected picture
+
+### Notes:
+
+- If you're a bit rusty on your iOS skills, check out this [tutorial](https://www.raywenderlich.com/160521/storyboards-tutorial-ios-11-part-1).
+
+- A good developer tries to write code that is easy to understand. The industry has a set of best practices that focus on writing easy to maintain code. Here's a set of guidelines on these best practices: [Swift Style Guide](https://github.com/raywenderlich/swift-style-guide). 
+
+
+
 
 
 
