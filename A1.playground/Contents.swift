@@ -3,8 +3,11 @@ import UIKit
 func firstDuplicatedElement(in array: [Int]) -> Int? {
     
     for firstNumber in stride(from: 0, to: array.count, by: 1) {
+        
         for secondNumber in stride(from: firstNumber + 1, to: array.count, by: 1) {
+            
             if array[firstNumber] == array[secondNumber] {
+                
                 return array[firstNumber]
             }
         }

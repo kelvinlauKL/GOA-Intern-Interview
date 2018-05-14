@@ -5,7 +5,9 @@ import UIKit
 func isPalindrome(_ word: String) -> Bool {
     
     if !word.isEmpty {
+        
         if word == String(word.characters.reversed()) {
+            
             return true
         }
     }
