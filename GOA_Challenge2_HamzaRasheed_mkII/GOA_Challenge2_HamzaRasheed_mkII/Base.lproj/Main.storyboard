@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gsY-EI-W43">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hamza's Gallery-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Hamza's Gallery" id="BYZ-38-t0r" customClass="ViewController" customModule="GOA_Challenge2_HamzaRasheed_mkII" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelectionDuringEditing="YES" rowHeight="168" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lHb-dY-9Q2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="153" id="0iS-o7-iXD" customClass="TableViewCell" customModule="GOA_Challenge2_HamzaRasheed_mkII" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="153"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0iS-o7-iXD" id="ySP-CU-xCt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="152.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="4t7-a6-2c6"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="N8K-H0-vap"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lHb-dY-9Q2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="CWX-4b-rtd"/>
+                            <constraint firstItem="lHb-dY-9Q2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ku7-ed-rWp"/>
+                            <constraint firstItem="lHb-dY-9Q2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ubs-Dr-bbq"/>
+                            <constraint firstItem="lHb-dY-9Q2" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="z9V-OG-m6I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yqc-gO-dfx"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hamza's Art Gallery" id="qea-ni-GpQ"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="lHb-dY-9Q2" id="ts0-gf-zYh"/>
+                        <segue destination="tbQ-0M-A5v" kind="show" identifier="segue" id="Ef6-DD-Wju"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Secnd View Controller-->
+        <scene sceneID="35t-Qf-sLp">
+            <objects>
+                <viewController id="tbQ-0M-A5v" customClass="SecndViewController" customModule="GOA_Challenge2_HamzaRasheed_mkII" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uxe-uc-QZj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L2E-nw-1Tj">
+                                <rect key="frame" x="0.0" y="282" width="375" height="167"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="167" id="ywb-Dg-N6O"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85020511217017081" green="0.92255833736087112" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L2E-nw-1Tj" firstAttribute="centerX" secondItem="tvP-M7-8kL" secondAttribute="centerX" id="Gda-fa-sU4"/>
+                            <constraint firstItem="L2E-nw-1Tj" firstAttribute="leading" secondItem="tvP-M7-8kL" secondAttribute="leading" id="UUY-Bq-OWh"/>
+                            <constraint firstItem="L2E-nw-1Tj" firstAttribute="trailing" secondItem="tvP-M7-8kL" secondAttribute="trailing" id="hUY-hs-qnp"/>
+                            <constraint firstItem="L2E-nw-1Tj" firstAttribute="centerY" secondItem="tvP-M7-8kL" secondAttribute="centerY" id="jsC-Xh-fbj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tvP-M7-8kL"/>
+                    </view>
+                    <connections>
+                        <outlet property="myImageView" destination="L2E-nw-1Tj" id="yU1-8k-Rj1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ocZ-ks-T9f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0q8-s5-3Qg">
+            <objects>
+                <navigationController id="gsY-EI-W43" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="Ae8-Zr-RkS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0Kk-RE-rkA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="40p-X4-KmE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-655" y="145"/>
+        </scene>
+    </scenes>
+</document>
