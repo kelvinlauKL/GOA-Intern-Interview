@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qFt-qT-w4G">
+            <objects>
+                <viewController id="TaG-dq-BHj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DtB-iC-q4x"/>
+                        <viewControllerLayoutGuide type="bottom" id="myk-uD-mid"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="klX-4H-yxs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land" translatesAutoresizingMaskIntoConstraints="NO" id="Xcp-2s-iao">
+                                <rect key="frame" x="0.0" y="269" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moM-XF-xjZ">
+                                <rect key="frame" x="0.0" y="555" width="86" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="cRH-b1-TxK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="Hdh-JU-cfX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oeg-Mo-iy7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-166" y="-583"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9h5-Xb-tXJ">
+            <objects>
+                <viewController id="KcU-b9-aYG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bh0-Ft-QAH"/>
+                        <viewControllerLayoutGuide type="bottom" id="dQb-3D-qeD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bJB-CI-F4D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land3" translatesAutoresizingMaskIntoConstraints="NO" id="dXE-PN-O82">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqG-Rj-Ued">
+                                <rect key="frame" x="16" y="543" width="86" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Pvf-lo-sAC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QbT-Eq-uIE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1172" y="-583"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Z3A-J2-sgd">
+            <objects>
+                <viewController id="1b8-mW-RUy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tYY-H8-3D2"/>
+                        <viewControllerLayoutGuide type="bottom" id="aPd-cY-1tG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rkr-Tt-crJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land4" translatesAutoresizingMaskIntoConstraints="NO" id="Iox-Ja-tmP">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxM-cF-iLH">
+                                <rect key="frame" x="16" y="543" width="86" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="RuE-bz-1RP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Npr-OU-LSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1814" y="-583"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Qa-Lv-glM">
+            <objects>
+                <viewController id="NYA-pd-GFX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dKj-IT-2ns"/>
+                        <viewControllerLayoutGuide type="bottom" id="NUa-8X-EMT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W2e-N5-JR3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land5" translatesAutoresizingMaskIntoConstraints="NO" id="92R-Se-sA5">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8p-OI-Thj">
+                                <rect key="frame" x="0.0" y="543" width="86" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="sfv-Wd-Y9m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zud-XJ-tXr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2478" y="-583"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7hS-mP-hOD">
+            <objects>
+                <viewController id="sD5-Db-61s" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bPK-eM-ptu"/>
+                        <viewControllerLayoutGuide type="bottom" id="lFn-77-apd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AJ0-Bl-arV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land2" translatesAutoresizingMaskIntoConstraints="NO" id="JAf-MD-OR0">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbx-55-zEK">
+                                <rect key="frame" x="0.0" y="555" width="86" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="coa-pP-dU3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8G9-AQ-tnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559" y="-583"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JackChan_Challenge2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land2" translatesAutoresizingMaskIntoConstraints="NO" id="Vtu-96-ejt">
+                                <rect key="frame" x="0.0" y="134" width="375" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="YfE-Ri-m5Y" appends="YES" id="bG1-nU-b5x"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land3" translatesAutoresizingMaskIntoConstraints="NO" id="Cnf-Ti-GAD">
+                                <rect key="frame" x="0.0" y="270" width="375" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lsZ-dO-GCV" appends="YES" id="UEN-Ma-ev9"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land4" translatesAutoresizingMaskIntoConstraints="NO" id="3yS-AP-R9M">
+                                <rect key="frame" x="0.0" y="406" width="375" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7mm-v6-hpy" appends="YES" id="iKE-x7-yhx"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land5" translatesAutoresizingMaskIntoConstraints="NO" id="2kS-Es-U4O">
+                                <rect key="frame" x="0.0" y="544" width="375" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="8Jh-Fv-iN5" appends="YES" id="H4b-Yh-qBO"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="land" translatesAutoresizingMaskIntoConstraints="NO" id="Kat-8h-gmc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="npv-sd-Ie2" appends="YES" id="Cos-ou-5B8"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="pic1" destination="Kat-8h-gmc" id="qrt-Rp-p4h"/>
+                        <outlet property="pic2" destination="Vtu-96-ejt" id="ZGt-Wc-mo9"/>
+                        <outlet property="pic3" destination="Cnf-Ti-GAD" id="j26-iK-jXV"/>
+                        <outlet property="pic4" destination="3yS-AP-R9M" id="O6T-AX-3Bn"/>
+                        <outlet property="pic5" destination="2kS-Es-U4O" id="4wR-Jn-Mm7"/>
+                        <segue destination="TaG-dq-BHj" kind="show" identifier="pic1Segue" id="d7b-t8-FRY"/>
+                        <segue destination="sD5-Db-61s" kind="show" identifier="pic2Segue" id="Fqp-gl-OVi"/>
+                        <segue destination="KcU-b9-aYG" kind="show" identifier="pic3Segue" id="iwH-Gk-LSc"/>
+                        <segue destination="1b8-mW-RUy" kind="show" identifier="pic4Segue" id="7dR-TP-dVp"/>
+                        <segue destination="NYA-pd-GFX" kind="show" identifier="pic5Segue" id="yNc-yt-Flc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="npv-sd-Ie2" userLabel="tap1">
+                    <connections>
+                        <action selector="pic1Tapped:" destination="BYZ-38-t0r" id="4eg-ca-3Qc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="YfE-Ri-m5Y" userLabel="tap2">
+                    <connections>
+                        <action selector="pic2Tapped:" destination="BYZ-38-t0r" id="uCl-D2-4md"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="lsZ-dO-GCV" userLabel="tap3">
+                    <connections>
+                        <action selector="pic3Tapped:" destination="BYZ-38-t0r" id="824-lP-dp6"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="7mm-v6-hpy" userLabel="tap4">
+                    <connections>
+                        <action selector="pic4Tapped:" destination="BYZ-38-t0r" id="k5m-ze-KoN"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="8Jh-Fv-iN5" userLabel="tap5">
+                    <connections>
+                        <action selector="pic5Tapped:" destination="BYZ-38-t0r" id="qLZ-Gw-nmh"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1137" y="1144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="land" width="1920" height="1200"/>
+        <image name="land2" width="3200" height="1506"/>
+        <image name="land3" width="640" height="431"/>
+        <image name="land4" width="1920" height="1200"/>
+        <image name="land5" width="640" height="359"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Hdh-JU-cfX"/>
+    </inferredMetricsTieBreakers>
+</document>
