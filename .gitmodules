@@ -1,0 +1,3 @@
+[submodule "SmallApp"]
+	path = SmallApp
+	url = https://github.com/raytaoliu/SmallApp.git
