@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200126AE20F40166007B95D3 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200126AD20F40166007B95D3 /* LabelTableViewCell.swift */; };
+		200126B020F40E6A007B95D3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200126AF20F40E6A007B95D3 /* GradientView.swift */; };
 		CE16A75B20A90437008F092A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16A75A20A90437008F092A /* CustomTableViewCell.swift */; };
 		CE99C1AD20A3C7CF0052346F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99C1AC20A3C7CF0052346F /* AppDelegate.swift */; };
 		CE99C1AF20A3C7CF0052346F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99C1AE20A3C7CF0052346F /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200126AD20F40166007B95D3 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		200126AF20F40E6A007B95D3 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		CE16A75A20A90437008F092A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE99C1A920A3C7CF0052346F /* BeautifulGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99C1AC20A3C7CF0052346F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				CE99C1AC20A3C7CF0052346F /* AppDelegate.swift */,
+				200126AF20F40E6A007B95D3 /* GradientView.swift */,
+				200126AD20F40166007B95D3 /* LabelTableViewCell.swift */,
 				CE99C1AE20A3C7CF0052346F /* ViewController.swift */,
 				CE99C1B020A3C7CF0052346F /* Main.storyboard */,
 				CE99C1B320A3C7CF0052346F /* Assets.xcassets */,
@@ -264,6 +270,8 @@
 			files = (
 				CE16A75B20A90437008F092A /* CustomTableViewCell.swift in Sources */,
 				CE99C1AF20A3C7CF0052346F /* ViewController.swift in Sources */,
+				200126B020F40E6A007B95D3 /* GradientView.swift in Sources */,
+				200126AE20F40166007B95D3 /* LabelTableViewCell.swift in Sources */,
 				CE99C1AD20A3C7CF0052346F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
